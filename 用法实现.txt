@@ -1,0 +1,10 @@
+  String text=" "+result.getName();
+            VerticalImageSpanextends imgSpan= new VerticalImageSpanextends(context, R.drawable.ziying);
+            SpannableString spannableString = new SpannableString(" "+text);
+            spannableString.setSpan(imgSpan,  0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            viewHolder.item_whole_name.setText(spannableString);
+            viewHolder.item_whole_name.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD));
+
+
+自定义ImageSpan图片居中
+    自定义类
